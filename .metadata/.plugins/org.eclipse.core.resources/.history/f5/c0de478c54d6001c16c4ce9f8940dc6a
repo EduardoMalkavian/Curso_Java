@@ -1,0 +1,16 @@
+package com.eduardo.cursojava.aula1;
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+		
+		int idade = 33;
+		String nome = "Edu";
+		String nomeDoMeuCachorro = "Meg";
+		
+		System.out.println("Idade =" + idade);
+		System.out.println("Seu nome é =" + nome);
+		System.out.println("O nome do seu cachorro é =" + nomeDoMeuCachorro);
+	}
+
+}
