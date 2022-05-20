@@ -1,0 +1,13 @@
+package com.eduardo.cursojava.aula2;
+
+public class VariareisPontoFlutuante {
+
+	public static void main(String[] args) {
+		
+		double valorPassagem = 2.90;
+		
+		System.out.println("Qual valor da passagem =" + valorPassagem);
+
+	}
+
+}
