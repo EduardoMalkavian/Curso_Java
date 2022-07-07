@@ -19,4 +19,14 @@ public class Carro {
 		return capCombustivel * consumoCombustivel;
 		
 	}
+	
+	double calcularCombustivel(double km) {
+		
+		System.out.println("Quanto de combustível é necessário para o carro andar 10KM?");
+		
+		double qtdCombustivel = km/consumoCombustivel;
+		
+		return qtdCombustivel;
+		
+	}
 }
