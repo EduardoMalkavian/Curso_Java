@@ -18,9 +18,11 @@ public class exer1 {
 		lampada.tipos[0] = "Olofote";
 		
 		
+		lampada.ligar();
+		System.out.println("Essa Lampada está?" + lampada.ligada);
 		
-		
-
+		lampada.desligar();
+		System.out.println("Essa Lampada está?" + lampada.desligada);
 	}
 
 }
