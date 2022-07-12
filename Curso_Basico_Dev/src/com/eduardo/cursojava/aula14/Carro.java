@@ -1,18 +1,34 @@
-package com.eduardo.cursojava.aula13;
+package com.eduardo.cursojava.aula14;
 
 public class Carro {
-	
+
 	String marca;
 	String modelo;
 	int numPassageiros; //numero de passageiros
 	double capCombustivel; // capacidade de combsutível
 	double consumoCombustivel; // consumo de combustível
 	
-	Carro(){
-		System.out.println("A classe foi instanciada");
-		numPassageiros =4;
-	}
 	
+	
+	public Carro(String marca, String modelo, int numPassageiros, double capCombustivel, double consumoCombustivel) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.numPassageiros = numPassageiros;
+		this.capCombustivel = capCombustivel;
+		this.consumoCombustivel = consumoCombustivel;
+	}
+
+	
+	
+	
+	public Carro() {
+		
+	}
+
+
+
+
 	void exibirAutonomia() {
 		System.out.println("A autonomia do carro é: " + this.capCombustivel * this.consumoCombustivel + "KM");
 	}
@@ -34,4 +50,5 @@ public class Carro {
 		return qtdCombustivel;
 
 }
+
 }
