@@ -6,11 +6,15 @@ public class TestCalculadora {
 
 	public static void main(String[] args) {
 	
-			MinhaCalculadora calc = new MinhaCalculadora();
 			
-			calc.soma(1, 2);
 			
-			System.out.println("A soma dos primeiro método da:" );
+			int soma1 = MinhaCalculadora.soma(1, 2);
+			
+			System.out.println(soma1);
+			
+			int soma2 = MinhaCalculadora.soma(1, 2, 3);
+			
+			System.out.println(soma2);
 			
 	}
 		
